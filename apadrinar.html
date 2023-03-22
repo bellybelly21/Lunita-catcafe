@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/c8d1f5e319.js" crossorigin="anonymous"></script>
+        <link href="assets\css\styles.css" rel="stylesheet" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap&family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="assets\img\Isotipo.png">
+        <title>Apadrinar</title>
+    </head>
+<body>
+
+    <script src="EXTRAS\js\nav-variable.js"></script>
+    <script src="EXTRAS\js\menu-movil.js"></script>
+    
+    <header>
+
+        <nav>
+            <ul class="navbar">
+                
+            <li>
+                <figure>
+                    <a href="index.html">
+                        <img src="assets\img\Imagotipo.png" width="187" height="38" alt="Logo">
+                    </a>
+                </figure>
+            </li>
+                
+            <li class="navtext"> <a href="sobre-nosotros.html">SOBRE NOSOTROS</a></li>
+            <hr class="hr-nav">
+            <li class="navtext"> <a href="anfitriones.html">ANFITRIONES </a> </li>
+            <hr class="hr-nav-2">
+            <li class="navtext"> <a href="carta.html"> CARTA</a> </li>
+            <hr class="hr-nav-3">
+            <li class="navtext"> <a href="contacto.html">CONTACTO</a> </li>
+                
+            <li><button class="cta-agendar"> <i class="fa-solid fa-calendar-days"></i> <a href="agendar-una-visita.html" class="cta-agendar-texto"> </i>RESERVAR UNA VISITA </a> </button> </li>
+            </ul>
+
+            <div class="menu-movil">
+                <figure>
+                    <a href="index.html">
+                        <img src="assets\img\Imagotipo.png" width="137" height="34" alt="Logo">
+                    </a>
+
+                    <span id="menu-hamburguesa">                    </span>
+                        <div id="hamburguesa" class="down"></div>
+
+                </figure>
+                <ul id="opciones">
+                    <li><a href="sobre-nosotros.html">SOBRE NOSOTROS</a></li>
+                    <li><a href="anfitriones.html">ANFITRIONES </a></li>
+                    <li><a href="carta.html"> CARTA</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                    <li><a href="agendar-una-visita.html" class="cta-agendar-texto">RESERVAR UNA VISITA </a></li>
+                </ul>
+            </div>
+            </nav>
+    </header>
+
+    <div class="banner2">
+        <h2 class="banner-texto2-1">APADRINAR</h2>
+        <h4 class="banner-texto2-2">financia a uno de nuestros anfitriones</h4>
+        </div>
+        <div class="banner-fondo-2">
+        <img src="assets\img\apadrinar.png" width="100%" alt="banner apadrinar">
+        </div>
+    
+    <main>
+        <section class="seccion-apadrinar">
+
+            <div class="titulo-seccion">
+                <h3>APADRINAR</h3>
+                <h3 class="titulo-seccion-underline-2">UN GATITO</h3>
+            </div>
+
+                <div class="columnas-4">
+                    <div>
+                    <h3 class="subtitulo-seccion-5">¿QUÉ ES APADRINAR?</h3>
+                    <p class="p-apadrinar">Apadrinar es donar dinero para mantener a nuestros gatitos felices y sanos. A pesar de que tenemos ganancias en la cafetería, es difícil mantener a nuestros gatitos debido a los gastos veterinarios, la comida y los medicamentos.
+                    <p class="p-apadrinar">Por el bien de nuestros gatos, pedimos amablemente donaciones. ¡Si estás dispuesto a ayudar, estaremos eternamente agradecidos! El dinero que nos dones irá 100% a la mantención de los gatitos.
+                    </p>
+                    </p>
+                </div>
+
+                <div class="img-apadrinar">
+                    <img src="assets\img\img-4.png" alt="imagen de un gatito">
+                </div>
+            </div>
+
+            <div class="pregunta-apadrinar">
+                <h3 class="subtitulo-seccion-6">¿TE GUSTARÍA APADRINAR A UN GATITO? </h3>
+                <p class="texto-apadrinar-subtitulos">Al hacerlo, recibirás un regalo especial del gatito que elijas apadrinar.</p>
+            </div>
+
+            <div class="apadrinar-form">
+            <div>
+                <h3 class="subtitulo-seccion-7"><span class="emoji-apadrinar">🎁</span> APADRINAR</h3>
+                <p class="texto-apadrinar-subtitulos">Por favor completa los datos solicitados.</p>
+            </div>
+
+            <div class="datos-apadrinar">
+                <div class="dato-1">
+                <h3 class="text-input-2"> TU NOMBRE</h3>
+                <input type="text" name="name" id="name-input-2" placeholder="Ej: Renata Olivares" required>
+            </div>
+            <div class="dato-2">
+                <h3 class="text-input-2"> TU CORREO</h3>
+                <input type="email" name="email" id="email-input-2" placeholder="Ej: renata.olivares@gmail.com" required>
+                </div>
+        </div>
+                    
+        <div class="select-3">
+            <h3 class="text-input-2">GATITO BENEFICIADO</h3>
+            <i class="fa-solid fa-caret-down" id="icono-select-3"></i>
+            <select name="gatitos" id="gatitos" required>
+                <option selected disabled>Elige uno</option>
+                <option>Ñau</option>
+                <option>Tallarín</option>
+                <option>Guaguito</option>
+                <option>Goti</option>
+                <option>Blanquito</option>
+                <option>Fifita</option>
+                <option>Esponja</option>
+                <option>Guatonsito</option>
+                <option>Todos los gatitos</option>
+            </select>
+        </div>
+
+        <div class="button-submit-apadrinar">
+            <input type="submit" value="APADRINARLO" id="submit-apadrinar">
+            <p class="p-submit-apadrinar">Serás redirigido a Payku.</p>
+    </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="boxes">
+        <div class="box">
+            <ul><h3>MENÚ</h3>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+                <li><a href="anfitriones.html">Anfitriones</a></li>
+                <li><a href="carta.html">Carta</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <ul><h3>LINKS DE INTERÉS</h3>
+                <li><a href="reglas.html">Reglas</a></li>
+                <li><a href="preguntas-frecuentes.html">Preguntas frecuentes</a></li>
+                <li><a href="agendar-una-visita.html">Reservar una visita</a></li>
+                <li><a href="apadrinar.html">Apadrinar un gatito</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <ul><h3>HORARIOS E INFORMACIÓN</h3>
+                <li><p>Lunes a sábados de 10:00 a 19:00hrs <br>Domingo cerrado</p></li>
+                <li><a href="https://goo.gl/maps/xzSArKr7Q2bFbMjC9" target="_blank">Roger de Flor 2870, Las Condes, RM.</a></li>
+                <li><a href="tel:+56232863358">+56 2 3286 3358</a></li>
+                <li><a href="mailto:contacto@lunitacatcafe.cl?Subject=Contacto">contacto@lunitacatcafe.cl</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+        <div class="socket">
+            <div class="socket-box">
+                <a href="index.html">
+                    <img src="assets\img\Imagotipo.png" width="187" height="48" alt="Logo">
+                </a>
+            </div>
+            <div class="socket-box">
+                <p>© 2022 LUNITA CATCAFÉ. TODOS LOS DERECHOS RESERVADOS</p>
+            </div>
+            <div class="socket-box">
+                <div class="iconos">
+                    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                    <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
